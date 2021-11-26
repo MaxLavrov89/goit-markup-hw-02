@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.section {
+  padding: 94px 0;
+}
+.container {
+  padding: 0 15px;
+  width: 1200px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.hidden-elem {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: ;
+  margin-top: -1px;
+}
+
+nav,
+.links,
+.contacts,
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  margin-right: 93px;
+  display: flex;
+}
+.links li a {
+  margin-right: 50px;
+  display: inline-block;
+}
+.links li:last-child a {
+  margin-right: 0;
+}
+.contacts li:first-child a {
+  margin-left: 0;
+}

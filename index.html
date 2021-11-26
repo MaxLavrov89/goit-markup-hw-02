@@ -2,39 +2,47 @@
 <html lang="ru">
 
 <head>
-    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8">
     <title>goit-markup-hw-02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
 </head>
 
 <body>
     <header>
-       <div class="conteiner">
+       <div class="container">
         <nav>
-            <a href="./index.html">Web <span>Studio</span></a>
-            <ul>
+            <a href="./index.html" class="logo">Web <span>Studio</span></a>
+            <ul class="links">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="./index.html">Контакты</a></li>
             </ul>
-        </nav>
+            <ul class="contacts">
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+380961111111</a></li>
+            </ul>
+           </nav>
+           
         </div>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
-        </ul>
+       
 
     </header>
 
     <main>
-        <div class="conteiner">
-            <section>
+        
+            <section class="section">
                 <h1>Эффективные решения для вашего бизнеса</h1>
                 <button type="button">Заказать услугу</button>
             </section>
-        </div>
-        <section>
-            <h2></h2>
+        
+            <section class="section">
+            <div class="container">
+            <h2 class="hidden-elem">Портфолио</h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -53,19 +61,22 @@
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
-        </section>
+            </div>
+            </section>
 
-        <section>
+        <section class="section">
             <h2>Чем мы занимаемся</h2>
+            <div class="container">
             <ul>
                 <li><img src="./images/box 1.jpg" alt="Деятельность1" width="370" height="294"></li>
                 <li><img src="./images/box 2.jpg" alt="Деятельность2" width="370" height="294"></li>
                 <li><img src="./images/box 3.jpg" alt="Деятельность3" width="370" height="294"></li>
             </ul>
-
+            </div>
         </section>
-        <section>
+        <section class="section">
             <h2>Наша команда</h2>
+            <div class="container">
             <ul>
                 <li>
                     <img src="./images/img 1.jpg" alt="Игорь Демьяненко" width="270" height="260">
@@ -88,12 +99,13 @@
                     <p>UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <div class="conteiner">
+        <div class="container">
         <a href="index.html">Web <span>Studio</span></a>
         <address>
             <p>г. Киев, пр-т Леси Украинки, 26 </p>
